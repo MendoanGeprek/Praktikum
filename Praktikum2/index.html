@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktik jQuery</title>
+
+    <!-- Memanggil Library jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            // Praktik 1 : Hello World
+            $("#helloBtn").click(function(){
+                $("#helloText").text("Hello World");
+            });
+
+            // Praktik 2 : Hide Show
+            $("#hide").click(function(){
+                $("#textHide").hide();
+            });
+
+            $("#show").click(function(){
+                $("#textHide").show();
+            });
+
+            // Praktik 3 : Animasi
+            $("#animateBtn").click(function(){
+                $("#box").animate({
+                    height: "toggle"
+                });
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+    <h2>Praktik jQuery</h2>
+    <hr>
+
+    <!-- Praktik 1 -->
+    <h3>1. Hello World</h3>
+    <button id="helloBtn">Tampilkan Hello</button>
+    <p id="helloText"></p>
+
+    <hr>
+
+    <!-- Praktik 2 -->
+    <h3>2. Hide dan Show</h3>
+    <p id="textHide">
+        Jika tombol hide diklik maka teks ini akan hilang.
+    </p>
+
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+
+    <hr>
+
+    <!-- Praktik 3 -->
+    <h3>3. Animasi</h3>
+    <button id="animateBtn">Start Animation</button>
+
+    <div id="box"
+         style="background:blue;height:100px;width:100px;margin-top:10px;">
+    </div>
+
+</body>
+</html>

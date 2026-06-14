@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tugas Javascript</title>
+
+<style>
+
+body{
+    font-family: Arial;
+}
+
+#box{
+    width:300px;
+    padding:20px;
+    border:1px solid black;
+    background-color:lightgray;
+}
+
+p{
+    text-align:left;
+}
+
+</style>
+
+<script>
+
+function sumOdd(){
+    var min = parseInt(document.getElementById("min").value);
+    var max = parseInt(document.getElementById("max").value);
+
+    var total = 0;
+
+    for(var i=min; i<=max; i++){
+        if(i % 2 != 0){
+            total += i;
+        }
+    }
+
+    document.getElementById("result").innerHTML = "Result = " + total;
+}
+
+function changeAlign(){
+    var text = document.getElementById("text");
+
+    if(text.style.textAlign == "center"){
+        text.style.textAlign = "right";
+    }else{
+        text.style.textAlign = "center";
+    }
+}
+
+function changeColor(){
+    var box = document.getElementById("box");
+
+    if(box.style.backgroundColor == "yellow"){
+        box.style.backgroundColor = "lightgray";
+    }else{
+        box.style.backgroundColor = "yellow";
+    }
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h3>Nama : Muhammad Djidzan Naufal Nugraha</h3>
+<h3>NIM : 2311102189</h3>
+
+<hr>
+
+<h2>Odd Number Calculator</h2>
+
+Min : <input type="number" id="min"><br><br>
+Max : <input type="number" id="max"><br><br>
+
+<button onclick="sumOdd()">Calculate</button>
+
+<p id="result"></p>
+
+<hr>
+
+<div id="box">
+<p id="text">Muhammad Djidzan Naufal Nugraha
+    2311102189 </p>
+</div>
+
+<br>
+
+<button onclick="changeAlign()">Change Text Alignment</button>
+<button onclick="changeColor()">Change Background Color</button>
+
+</body>
+</html>
