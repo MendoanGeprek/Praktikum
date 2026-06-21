@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Praktikum8/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Praktikum8/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Praktikum8/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Praktikum9/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Praktikum9/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Praktikum9/build" />
+      <excludeFolder url="file://$MODULE_DIR$/praktikum10/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/praktikum10/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/praktikum10/build" />
+      <excludeFolder url="file://$MODULE_DIR$/praktikum10/linux/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/praktikum10/linux/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/praktikum10/linux/flutter/ephemeral/.plugin_symlinks/flutter_local_notifications_linux/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
